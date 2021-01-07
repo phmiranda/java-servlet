@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>desenvolvedor-servlet</name>
+  <name>gerenciador</name>
   <groupId>br.com.alura</groupId>
-  <artifactId>desenvolvedor-v4</artifactId>
+  <artifactId>gerenciador</artifactId>
   <url>https://github.com/phmiranda/servlet</url>
   <version>1.0.0-SNAPSHOT</version>
 
