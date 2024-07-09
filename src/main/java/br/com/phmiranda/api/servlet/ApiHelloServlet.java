@@ -5,9 +5,8 @@
  * Date: 07/01/2021
  */
 
-package br.com.alura.servlet;
+package br.com.phmiranda.api.servlet;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -15,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/hello")
-public class Hello extends HttpServlet {
+@WebServlet(urlPatterns = "/hello-world")
+public class ApiHelloServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws IOException{
         PrintWriter saida = response.getWriter();

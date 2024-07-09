@@ -5,7 +5,7 @@
  * Date: 07/01/2021
  */
 
-package br.com.alura.servlet;
+package br.com.phmiranda.api.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +18,7 @@ import java.io.PrintWriter;
 @WebServlet(urlPatterns = "/empresas")
 public class EmpresaServlet extends HttpServlet {
 
-    protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void empresaServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String razaoSocial = request.getParameter("razaoSocial");
         PrintWriter saida = response.getWriter();
         System.out.println("Iniciando o cadastro da empresa: " + razaoSocial);
